@@ -11,10 +11,10 @@ var GameState = {
 
         this.mario = this.game.add.sprite(this.game.world.centerX, 400, "mario");
         this.mario.anchor.setTo(0.5, 0.5);
-        this.mario.scale.setTo(0.2);
+        this.mario.scale.setTo(0.1);
     },
     update: function(){
-
+        this.mario.angle += 10;
     }
 };
 
